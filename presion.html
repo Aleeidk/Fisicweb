@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta charset="X-UA-Compatible" content="IE-edge"/>
+    <meta name="viewport"content="widht=device-width, initial-scale=1.0"
+    />
+  <title>Calculadora de presión</title>
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header class="main_content">
+        <nav class="main_content_menu">
+            <div class="main_content_menu_hamburgesa">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-menu-deep" width="24"
+                    height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                    <path d="M4 6h16"></path>
+                    <path d="M7 12h13"></path>
+                    <path d="M10 18h10"></path>
+                </svg>
+                <ul class="main_menu_display">
+
+                    <li class="main_menu_link">
+                        <a href="Index.html">Inicio</a>
+                    </li>
+                    <li class="main_menu_link">
+                        <a href="Proyecto.html">Cinematica</a>
+                    </li>
+                    <li class="main_menu_link">
+                        <a href="proyecto.html">Presi&oacuten</a>
+                    </li>
+                    <li class="main_menu_link">
+                        <a href="coulomb.html">Electroestatica</a>
+                    </li>
+                    <li class="main_menu_link">
+                        <a href="Entalpia.html">Entalpia</a>
+                    </li>
+                    <li class="main_menu_link">
+                        <a href="newFuerza.html">Newton</a>
+                    </li>
+    
+    
+                </ul>
+        </nav>
+    </header>
+    
+    <section class="main_calculate">
+
+  <h1>Calculadora de presión</h1>
+  <p>Introduce la fuerza (en newtons) y el área (en metros cuadrados) y pulsa el botón "Calcular"</p>
+  <form>
+    <input type="number" id="fuerza" placeholder="Fuerza"><br>
+    <input type="number" id="area" placeholder="Área"><br>
+    <button type="button" id="calcular">Calcular</button>
+  </form>
+</section>
+  <p id="resultado"></p>
+ 
+</body>
+<script src="../js/p.js"></script>
+</html>

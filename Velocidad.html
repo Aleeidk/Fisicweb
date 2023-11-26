@@ -1,0 +1,33 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+        <meta charset="X-UA-Compatible" content="IE-edge"/>
+        <meta name="viewport"content="widht=device-width, initial-scale=1.0"
+        />
+  <title>Calculadora de velocidad</title>
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+  <h1>Calculadora de velocidad</h1>
+  <p>Introduce los valores que conozcas y selecciona el valor que quieres calcular</p>
+  <form>
+    <input type="number" id="vi" placeholder="Velocidad inicial (m/s)">
+    <input type="number" id="vf" placeholder="Velocidad final (m/s)">
+    <input type="number" id="a" placeholder="Aceleración (m/s2)">
+    <input type="number" id="t" placeholder="Tiempo (s)">
+    <input type="number" id="d" placeholder="Distancia (m)">
+    <select id="opcion">
+      <option value="vf">Calcular velocidad final</option>
+      <option value="vi">Calcular velocidad inicial</option>
+      <option value="a">Calcular aceleración</option>
+      <option value="t">Calcular tiempo</option>
+      <option value="d">Calcular distancia</option>
+    </select>
+    <button type="button" id="calcular">Calcular</button>
+  </form>
+  <p id="resultado"></p>
+</body>
+<script src="../js/velo.js"></script>
+</html>
